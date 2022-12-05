@@ -44,3 +44,7 @@ console.log(div)
 exp=num1**num2
 console.log("exponential operator")
 console.log(exp)
+//incremental operator
+num1++
+console.log("incremental Operator")
+console.log(num1++)
