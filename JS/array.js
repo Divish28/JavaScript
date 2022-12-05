@@ -21,3 +21,7 @@ console.log(array[6][1])
 console.log(array[3]="n")
 console.log(array)
 
+//slice in array
+console.log(array.slice(3))
+console.log(array.splice(5))
+console.log(array)
