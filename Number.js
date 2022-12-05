@@ -48,3 +48,7 @@ console.log(exp)
 num1++
 console.log("incremental Operator")
 console.log(num1++)
+//decremental operator
+num2--
+console.log("decremental Operator")
+console.log(num2--)
