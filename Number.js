@@ -50,5 +50,29 @@ console.log("incremental Operator")
 console.log(num1++)
 //decremental operator
 num2--
-console.log("decremental Operator")
+console.log("decremental Operator\n")
 console.log(num2--)
+
+//Assignment Operator
+//Addition assignment
+console.log("Assignment Operator\n")
+let Assignment=5
+Assignment+=2
+console.log("assignment addition")
+console.log(Assignment)
+//assignment subraction
+Assignment-=2
+console.log("assignment addition")
+console.log(Assignment)
+//Assignment multiplication
+Assignment*=2
+console.log("assignment Multiplication")
+console.log(Assignment)
+//Assignment division
+Assignment/=2
+console.log("assignment division")
+console.log(Assignment)
+//Assignment exponent
+Assignment**=2
+console.log("assignment Exponent")
+console.log(Assignment)
