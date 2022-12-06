@@ -41,3 +41,9 @@ console.log(Name.substring(1000,3))
 
 //substr
 console.log(Name.substr(3,5))
+
+//ends with
+console.log(Name.endsWith("a"))
+
+//include
+console.log(Name.includes("i"))
