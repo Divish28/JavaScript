@@ -5,7 +5,7 @@ const submit=document.querySelector('button')
 const para=document.querySelector('p')
 submit.addEventListener('click',findGrade)
 
-function findGrade(){
+function findGrade(event){
 const choice= option.value
 if (choice >= 90) {
    // console.log("A+")
@@ -31,4 +31,5 @@ else{
     //console.log="Sorry you have failed the test"
     para.textContent="Sorry you have failed the test"
 }
+event.preventDefault();
 }
