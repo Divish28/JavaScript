@@ -3,6 +3,7 @@
 const option=document.getElementById("grade")
 const submit=document.querySelector('button')
 const para=document.querySelector('p')
+const comment=document.querySelector('#comments')
 submit.addEventListener('click',findGrade)
 
 function findGrade(event){
@@ -10,6 +11,16 @@ const choice= option.value
 if (choice >= 90) {
    // console.log("A+")
    para.textContent="A+"
+   
+   //nested if
+   if(choice >=95)
+   {
+    comment.textContent=`You have performed excellently`
+   }
+   else
+   {
+    comment.textContent="Very Good"
+   }
 }
 else if(choice>=80){
     //console.log("A")

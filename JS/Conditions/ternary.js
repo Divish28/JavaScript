@@ -1,2 +1,2 @@
-var result=10>20?'10 is greater':'20 is greater'
+var result=10>20?10*2:20*3 
 console.log(result)
