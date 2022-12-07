@@ -48,7 +48,7 @@ console.log(array)
 
 //map
 function maping(){
-    return array.values+'3'
+    return array.values+3
 }
 console.log(array.map(maping))
 
@@ -56,3 +56,4 @@ console.log(array.map(maping))
 for(const order of array){
     console.log(order)
 }
+console.log(array)
