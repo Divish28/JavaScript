@@ -5,8 +5,10 @@ const input_text=document.querySelector('#Counted-words') //statement to be prin
 counted.addEventListener('click',countLetters)
 function countLetters(event){
     const para=paragraph.value
+    const lpara=para.toLowerCase()
     const text=Selected.value
-    const numbers=para.split(text).length -1
+    const ltext=text.toLowerCase()
+    const numbers=lpara.split(ltext).length -1
     input_text.textContent=`The number of time the word "${text}" repeated is ${numbers}`
     event.preventDefault()
 }
