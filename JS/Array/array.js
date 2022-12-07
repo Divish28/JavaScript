@@ -35,7 +35,7 @@ console.log(array)
 console.log(array.slice(3))
 
 //splice in array
-//In this splice it will take as a index and 3 as a length.
+//In this splice it will take 2 as a index and 3 as a length.
 console.log(array.splice(2,3))
 console.log(array)
 

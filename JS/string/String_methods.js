@@ -1,33 +1,33 @@
 //string to lower case
 const Name=" Divish Kumar "
 const change_lower=Name.toLowerCase()
-//console.log(change_lower)
+console.log(change_lower)
 
 //string to upper case
 const change_upper=Name.toUpperCase()
-//console.log(change_upper)
+console.log(change_upper)
 
 //string trim
 const change_trim=Name.trim()
-//console.log(change_trim)
+console.log(change_trim)
 const trim_start=Name.trimStart()
-//console.log(trim_start)
+console.log(trim_start)
 const trim_end=Name.trimEnd()
-//console.log(trim_end)
+console.log(trim_end)
 
 //CharAT
 //will give the charater at the index mentioned
-//console.log(Name.charAt(6))
+console.log(Name.charAt(6))
 
 //replace
-//console.log(Name.replace("D","d"))
+console.log(Name.replace("D","d"))
 
 //length
-//console.log(Name.length)
+console.log(Name.length)
 
 //charCodeAT
 //will give the ascii value
-//console.log(Name.charCodeAt(8))
+console.log(Name.charCodeAt(8))
 
 //split
 //split will convert string into array
