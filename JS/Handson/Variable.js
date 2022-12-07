@@ -23,3 +23,7 @@ LastName="KC"
 console.log(LastName)
 const LastName="KC"
 console.log(LastName)*/
+
+var Callable="Var can be call any where"
+console.log(Callable)
+

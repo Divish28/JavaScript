@@ -16,6 +16,7 @@ const trim_end=Name.trimEnd()
 console.log(trim_end)
 
 //CharAT
+//will give the charater at the index mentioned
 console.log(Name.charAt(6))
 
 //replace
@@ -25,6 +26,7 @@ console.log(Name.replace("D","d"))
 console.log(Name.length)
 
 //charCodeAT
+//will give the ascii value
 console.log(Name.charCodeAt(8))
 
 //split
