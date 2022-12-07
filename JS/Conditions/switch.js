@@ -6,6 +6,9 @@ submit.addEventListener('click',SwitchCondition)
 function SwitchCondition(event){
     const choice=option.value
     switch (true) {
+        case choice >95 && choice<100:
+            para.textContent="A*"
+            break;
         case  choice >= 90:
             para.textContent="A+"
             break;
