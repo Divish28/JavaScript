@@ -12,7 +12,7 @@ if (choice >= 90) {
    // console.log("A+")
    para.textContent="A+"
    
-   //nested if
+   //nested if..else
    if(choice >=95)
    {
     comment.textContent=`You have performed excellently`
