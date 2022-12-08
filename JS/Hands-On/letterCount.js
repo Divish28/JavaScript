@@ -11,8 +11,4 @@ function countLetters(event){
     const numbers=lowerPara.split(lowerText).length -1
     input_text.textContent=`"${text}" is repeated ${numbers} times`
     event.preventDefault()
-}
-
-/*let para="But good morning! Good morning to ye and thou! Id say to all my patients, because I was the worse of the hypocrites, of all the hypocrites, the cruel and phony hypocrites, I was the very worst."
-//console.log(para.split('m').length -1)*//*let para="But good morning! Good morning to ye and thou! Id say to all my patients, because I was the worse of the hypocrites, of all the hypocrites, the cruel and phony hypocrites, I was the very worst."
-//console.log(para.split('m').length -1)*/
+}   
