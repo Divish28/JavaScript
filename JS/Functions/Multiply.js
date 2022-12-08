@@ -1,3 +1,4 @@
+//declearing a parameter.
 function Multiply(a,b){
     return (a*b)
 }
