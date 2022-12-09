@@ -7,7 +7,8 @@ function doubleArray(item){
 console.log(double)
 
 
-//Using arrow function
+//Using arrow function. 
+//since it is one line code return and curly brackets are removed.
 const arrowArray=[1,2,3]
 const arrowDouble=arrowArray.map((items)=>items*2);
 console.log(arrowDouble)
