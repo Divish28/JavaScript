@@ -1,28 +1,28 @@
-var number1=document.getElementById('#fnum1')
-var number2=document.getElementById('#fnum2')
 var result=document.querySelector('#result')
-var calculatebutton=document.querySelector('button')
+var calculatebutton=document.querySelector('#calculate')
 calculatebutton.addEventListener('click',calculator)
 function calculator(event){
-    const add=number1+number2
-    result.textContent=(add)
-    const symbol=prompt("enter the operation to be done \n ' + ' , ' - '  , ' * ' , ' / ' ")
-
-    //result.textContent="entered symbol is "+symbol
+    let number1=parseInt(prompt("enter number 1"))
+    let number2=parseInt(prompt("enter number 2"))
+    let symbol=prompt("enter the operation to be done \n ' + ' , ' - '  , ' * ' , ' / ' ")
+    let calcu
     if(symbol=="+"){
-        let add=number1+number2
-        result.textContent=`Addition of ${number1} and ${number2} is ${add}`
+        calcu=number1+number2
+        result.textContent=`Addition of ${number1} and ${number2} is ${calcu}`
     }
     else if(symbol=="-"){
-        result.textContent=number1-number2
+        calcu=number1-number2
+        result.textContent=`Subraction of ${number1} and ${number2} is ${calcu}`
         //return (a-b)
     }
     else if(symbol=="*"){
-        result.textContent=number1*number2
+        calcu=number1*number2
+        result.textContent=`Multiplication of ${number1} and ${number2} is ${calcu}`
         //return (a*b)
     }
     else if(symbol=="/"){
-        result.textContent=number1/number2
+        calcu=number1/number2
+        result.textContent=`Division of ${number1} and ${number2} is ${calcu}`
         //return (a/b)
     }
     else{
@@ -31,6 +31,9 @@ function calculator(event){
     }
     event.preventDefault();
 }
+
+
+
 /*var number1=12
 var number2=13
 var symbol="+"
