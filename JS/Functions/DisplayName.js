@@ -1,5 +1,6 @@
+//Default Parameter function.
 let Name
-function display(fName){
+function display(fName='Karthik'){
     return fName
 }
 Name="divish"

@@ -1,7 +1,8 @@
+//calculator using arrow function.
+
 var result=document.querySelector('#result')
 var calculatebutton=document.querySelector('#calculate')
-calculatebutton.addEventListener('click',calculator)
-function calculator(event){
+calculatebutton.addEventListener('click',(event)=>{                          //arrow function.
     let number1=parseInt(prompt("enter number 1"))
     let number2=parseInt(prompt("enter number 2"))
     let symbol=prompt("enter the operation to be done \n ' + ' , ' - '  , ' * ' , ' / ' ")
@@ -30,19 +31,4 @@ function calculator(event){
         //return ("Enter the correct operation")
     }
     event.preventDefault();
-}
-
-
-
-/*var number1=12
-var number2=13
-var symbol="+"
-function calculate(){
-    if(symbol == ""){
-        return(number1+number2)
-    }
-    else{
-        return("enter correct symbol")
-    }
-}
-console.log(calculate())*/
+})
