@@ -41,7 +41,7 @@ console.log(array)
 
 //filter
 function remove(){
-    return array.length=3
+    return array.length=10
 }
 console.log(array.filter(remove))
 console.log(array)
@@ -65,3 +65,6 @@ console.log(insert)
 
 //Sort the array in asending order
 console.log(array.sort())
+
+array1=['divish','arun']
+console.log(array1.concat(array))
