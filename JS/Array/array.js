@@ -57,3 +57,11 @@ for(const order of array){
     console.log(order)
 }
 console.log(array)
+
+// insert element in center of the array
+var insert=[1,2,4,5]
+insert.splice(2,0,3)
+console.log(insert)
+
+//Sort the array in asending order
+console.log(array.sort())
