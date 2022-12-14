@@ -1,10 +1,10 @@
 //callback Function
 
 function SelfIntro(Name,native){
-    console.log(`I am ${Name}, and i am from ${native}`)
+    console.log(`I am ${Name}`)
+    native("Hosur")
 }
 function NativePlace(place){
-    return (place)
+    console.log (`I am from ${place}`)
 }
-var display=new SelfIntro("Divish",NativePlace("hosur"))
-console.log(display)
+SelfIntro("Divish",NativePlace)

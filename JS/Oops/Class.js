@@ -9,5 +9,3 @@ class anime{
 }
 var Animename=new anime('One Piece',234)
 Animename.display()
-
-

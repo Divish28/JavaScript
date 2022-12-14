@@ -5,7 +5,7 @@ function ChnageColour(value) {
   return Math.floor(Math.random() * (value));
 }
 
-ChnageButton.addEventListener('mouseout', (e) => {
+ChnageButton.addEventListener('mouseout', eve => {
   const ColourChange = `rgb(${ChnageColour(255)}, ${ChnageColour(255)}, ${ChnageColour(255)})`;
-  e.currentTarget.style.backgroundColor = ColourChange;
+  eve.currentTarget.style.backgroundColor = ColourChange;
 },true);

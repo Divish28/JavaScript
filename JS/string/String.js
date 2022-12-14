@@ -37,3 +37,13 @@ console.log(statement)
 const multiline="This is multi line string\nBecause this statement is printed in the next line"
 console.log(multiline)
 
+
+//change character in string
+let str="The dog is not cat"
+let arr=str.split(" ");
+console.log(arr)
+arr[1]="Cat"
+arr[4]="Dog"
+//console.log(...arr)
+// let str1 = arr.join(" ")
+// console.log(str1)
