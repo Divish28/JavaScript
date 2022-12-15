@@ -47,3 +47,10 @@ arr[4]="Dog"
 //console.log(...arr)
 // let str1 = arr.join(" ")
 // console.log(str1)
+
+
+// task one reverse string
+revString="This is reverse string"
+let Reversing=revString.split(" ")
+Reversing.reverse()
+console.log(...Reversing)       // Spread operator

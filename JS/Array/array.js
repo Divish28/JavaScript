@@ -68,3 +68,7 @@ console.log(array.sort())
 
 array1=['divish','arun']
 console.log(array1.concat(array))
+
+//reverse array Task
+numberArray=[1,2,3,4]
+console.log(numberArray.reverse())
