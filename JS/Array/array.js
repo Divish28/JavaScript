@@ -70,5 +70,19 @@ array1=['divish','arun']
 console.log(array1.concat(array))
 
 //reverse array Task
-numberArray=[1,2,3,4]
+const numberArray=[1,2,3,4]
 console.log(numberArray.reverse())
+
+const testOne=[1,2,3,1,2]
+const testTwo=new Set(testOne)
+const findDupicate=testOne.filter(currentValue=>{
+    if(testTwo.has(currentValue)){
+        testTwo.delete(currentValue)
+    }
+    else{
+        return currentValue;
+    }
+})
+
+console.log(findDupicate);
+console.log()

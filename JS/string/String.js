@@ -14,13 +14,13 @@ const double_quotes="This string is decleared inside double quotes."
 console.log(double_quotes)
 
 //concatenate string
-
+//Using Template literals.
 const concate=`hello ${myName}`
 console.log(concate)
 
 //concatenate string using +
 
-console.log("This is concatenated using + by "+myName)
+console.log("This is concatenated using + by "+ myName)
 
 //converting number to string
 const number_type=1234
@@ -44,13 +44,20 @@ let arr=str.split(" ");
 console.log(arr)
 arr[1]="Cat"
 arr[4]="Dog"
-//console.log(...arr)
+console.log(arr.join(" "))
 // let str1 = arr.join(" ")
 // console.log(str1)
 
 
 // task one reverse string
 revString="This is reverse string"
-let Reversing=revString.split(" ")
+const Reversing=revString.split(" ")
 Reversing.reverse()
 console.log(...Reversing)       // Spread operator
+
+
+const replace="Hello World"
+console.log(replace.replace("World","Aspire"))
+
+const replacetwo="This not dog it is cat"
+console.log(replacetwo)
