@@ -83,6 +83,5 @@ const findDupicate=testOne.filter(currentValue=>{
         return currentValue;
     }
 })
-
+console.log(testOne)
 console.log(findDupicate);
-console.log()
